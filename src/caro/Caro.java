@@ -18,6 +18,7 @@ public class Caro {
         // TODO code application logic here
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                System.out.println("Hello");
                 new MainJFrame().setVisible(true);
             }
         });
